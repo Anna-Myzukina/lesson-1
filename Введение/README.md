@@ -9,6 +9,8 @@ https://nodejs.org
 
 Рекомендуется устанавливать LTS-версию
 
+--------------------------------------------------------
+
 Задание №2.
 Используя инструмент REPL, определите функцию mul(), которая принимает
 два параметра и возвращает их произведение.
@@ -25,14 +27,18 @@ JavaScript
 
 REPL после каждой команды выводит результат, если результата нет,
 выведет undefined:
-> function mul(x, y){return x+y};
-undefined
-> mul(3,2);
-5
-> mul(9,1);
-10
-> mul(2,5);
-7
+
+      > function mul(x, y){return x+y};
+      undefined
+      > mul(3,2);
+      5
+      > mul(9,1);
+      10
+      > mul(2,5);
+      7
+
+--------------------------------------------------------
+
 
 Задание №3.
 Создайте JavaScript файл со следующим содержимым:
@@ -46,6 +52,7 @@ let arr = ["World", "Tom", "Bob"];
 arr.forEach((value) => console.log(`Hello ${value}!`));
 
 //anna@anna-ubuntu:~/folderNodejs$ node script.js
-Hello World!
-Hello Tom!
-Hello Bob!
+
+    Hello World!
+    Hello Tom!
+    Hello Bob!
