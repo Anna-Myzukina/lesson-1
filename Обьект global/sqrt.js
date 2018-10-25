@@ -1,0 +1,1 @@
+global.num = 25;
